@@ -1,13 +1,9 @@
 Rails.application.routes.draw do
-  get 'services/index'
-  get 'services/show'
-  get 'kurunzi_shop/index'
-  get 'kurunzi_shop/show'
-  get 'categories/index'
-  get 'blog_posts/index'
-  get 'blog_posts/show'
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+    resources :blog_posts, only: [:index, :show ]
+    resources :categories, only: [:index]
+    resources :kurunzi_shop, only: [:index, :show]
+    resources :services, only: [:index, :show]
+
+  
 end

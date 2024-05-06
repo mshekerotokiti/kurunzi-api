@@ -1,0 +1,2 @@
+class KurunziShop < ApplicationRecord
+end
