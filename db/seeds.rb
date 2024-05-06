@@ -12,6 +12,7 @@ desktops = Category.create(name: 'Desktops')
 accessories = Category.create(name: 'Accessories')
 cameras = Category.create(name: 'Cameras')
 play_stations = Category.create(name: 'Play Stations')
+uncategorized = Category.create(name: 'uncategorized')
 
 # Sample blog posts
 puts 'Seeding Blog Posts...'
@@ -82,28 +83,28 @@ products = [
     name:'Dell latitude 5430',price:70000, description:'',image_url:'https://bitratedigital.co.ke/wp-content/uploads/2023/02/DELL-LATITUDE-5430-CORE-I5-16GB-512GB-SSD-3-1-scaled.jpg.webp',category_id:laptops.id
   },
   {
-    name:'Dell latitude 5430', price: 70000, description:'intel corei7 12th gen 16gb ram , 512gb ssd , backlit keyboard, 13 inches , full hd', image_url:'https://www.dataworld.co.ke/wp-content/uploads/2023/05/LAT-5430-2.jpg',
+    name:'Dell latitude 5430', price: 70000, description:'intel corei7 12th gen 16gb ram , 512gb ssd , backlit keyboard, 13 inches , full hd', image_url:'https://www.dataworld.co.ke/wp-content/uploads/2023/05/LAT-5430-2.jpg',category_id:laptops.id
   },
   {
-    name:'Dell Inspiron 15 ', price: 45000, description:'intel corei5 11th gen , 8gb ram ddr4, 512 Gb ssd, 3 usb ports, 15 inches , hdmi port ', image_url:'https://www.fgee.co.ke/wp-content/uploads/2023/08/Untitled-design-2023-08-03T144934.509.png'
+    name:'Dell Inspiron 15 ', price: 45000, description:'intel corei5 11th gen , 8gb ram ddr4, 512 Gb ssd, 3 usb ports, 15 inches , hdmi port ', image_url:'https://www.fgee.co.ke/wp-content/uploads/2023/08/Untitled-design-2023-08-03T144934.509.png', category_id:laptops.id
   },
   {
-    name:'Dell latitude 7280', price: 30000, description:'intel corei7 6th gen , 8GB ram ddr4 , 2.8Ghz , 256 Gb ssd , full hd , backlit keyboard , 12.5 inches ', image_url:'https://www.laptopsfactory.co.ke/wp-content/uploads/2024/03/Dell-7280.png'
+    name:'Dell latitude 7280', price: 30000, description:'intel corei7 6th gen , 8GB ram ddr4 , 2.8Ghz , 256 Gb ssd , full hd , backlit keyboard , 12.5 inches ', image_url:'https://www.laptopsfactory.co.ke/wp-content/uploads/2024/03/Dell-7280.png', category_id:laptops.id
   },
   {
-    name:'Lenovo Thinkbook 14', price:50000, description:'Intel corei5 11th gen, 8gb ram , 512 gb ssd, 14 inches ',image_url:'https://mombasacomputers.b-cdn.net/wp-content/uploads/2022/02/Lenovo-ThinkBook-14-G2-ITL-Intel-Core-i5-11th-Gen-8GB-RAM-512GB-SSD-14-Inches-FHD-Display-2.jpg'
+    name:'Lenovo Thinkbook 14', price:50000, description:'Intel corei5 11th gen, 8gb ram , 512 gb ssd, 14 inches ',image_url:'https://mombasacomputers.b-cdn.net/wp-content/uploads/2022/02/Lenovo-ThinkBook-14-G2-ITL-Intel-Core-i5-11th-Gen-8GB-RAM-512GB-SSD-14-Inches-FHD-Display-2.jpg', category_id:laptops.id
   },
   {
-   name:'Lenovo ThinkPad E14', price:65000, description:'Intel corei7 11th gen , 16Gb ram , 512 Gb ssd , backlit keyboard, full hd , hdmi , type c and 3 usb port ', image_url:'https://zurimall.co.ke/wp-content/uploads/2023/05/Untitled-1-2.jpg.webp'
+   name:'Lenovo ThinkPad E14', price:65000, description:'Intel corei7 11th gen , 16Gb ram , 512 Gb ssd , backlit keyboard, full hd , hdmi , type c and 3 usb port ', image_url:'https://zurimall.co.ke/wp-content/uploads/2023/05/Untitled-1-2.jpg.webp', category_id:laptops.id
   },
   {
-   name:'Lenovo ThinkPad x13 ', price: 55000, description:'ultra slim laptop.Processor : 11th  Generation Intel® Core™ i5-Integrated Intel® Iris® Xe Graphics, 8 GB LPDDR5-6400MHz (Soldered),256 GB SSD M.2 2280 PCIe Gen4 TLC Opal',image_url:'https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MjY0NjY0fGltYWdlL2pwZWd8aGZhL2hlNC8xMDgxMjE3MDMzODMzNC5qcGd8MjY5MmIxNTNmYjU5ZWQ4ZjBjOGI4YTIwMjVjYzk3ZTYwMDUyNWM5N2NmOTlkNjVmZjcxNGEzNzM3ZDA5ODQ2Yw/lenovo-laptop-thinkpad-x13-gallery-2.jpg'
+   name:'Lenovo ThinkPad x13 ', price: 55000, description:'ultra slim laptop.Processor : 11th  Generation Intel® Core™ i5-Integrated Intel® Iris® Xe Graphics, 8 GB LPDDR5-6400MHz (Soldered),256 GB SSD M.2 2280 PCIe Gen4 TLC Opal',image_url:'https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MjY0NjY0fGltYWdlL2pwZWd8aGZhL2hlNC8xMDgxMjE3MDMzODMzNC5qcGd8MjY5MmIxNTNmYjU5ZWQ4ZjBjOGI4YTIwMjVjYzk3ZTYwMDUyNWM5N2NmOTlkNjVmZjcxNGEzNzM3ZDA5ODQ2Yw/lenovo-laptop-thinkpad-x13-gallery-2.jpg', category_id:laptops.id
   },
   {
-    name:'Hp 250 g8 ', price:28000, description:'intel Celeron , 8gb  ram , 256 gb ssd, 15 inches frameless, 2 cores, Intel hd graphics,2 usb ports, typ  c port, hdmi port, numerical keyboard ',image_url:'https://zurimall.co.ke/wp-content/uploads/2023/03/Artboard-1-copy-2@300x-100-2023-04-01T013459.124.jpg.webp'
+    name:'Hp 250 g8 ', price:28000, description:'intel Celeron , 8gb  ram , 256 gb ssd, 15 inches frameless, 2 cores, Intel hd graphics,2 usb ports, typ  c port, hdmi port, numerical keyboard ',image_url:'https://zurimall.co.ke/wp-content/uploads/2023/03/Artboard-1-copy-2@300x-100-2023-04-01T013459.124.jpg.webp', category_id:laptops.id
   },
   {
-    name:'Hp 250 G8 Notebook ',price:65000, description:'Intel core i7 11th Generation  16 Gb Ram DDR4  512GB SSD (8 CPUs), 15.6 Inches size, numerical keyboard with hmdi port and type c port ',image_url:'https://support.hp.com/wcc-assets/document/images/834/c06951531.png'
+    name:'Hp 250 G8 Notebook ',price:65000, description:'Intel core i7 11th Generation  16 Gb Ram DDR4  512GB SSD (8 CPUs), 15.6 Inches size, numerical keyboard with hmdi port and type c port ',image_url:'https://support.hp.com/wcc-assets/document/images/834/c06951531.png', category_id:laptops.id
   },
   {
     name:
