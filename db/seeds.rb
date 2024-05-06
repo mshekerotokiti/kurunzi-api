@@ -106,9 +106,7 @@ products = [
   {
     name:'Hp 250 G8 Notebook ',price:65000, description:'Intel core i7 11th Generation  16 Gb Ram DDR4  512GB SSD (8 CPUs), 15.6 Inches size, numerical keyboard with hmdi port and type c port ',image_url:'https://support.hp.com/wcc-assets/document/images/834/c06951531.png', category_id:laptops.id
   },
-  {
-    name:
-  },
+
 
 
   # Add more products as needed
