@@ -140,14 +140,12 @@ products = [
    name:'TP-Link 5-port Desktop Switch', price:1200 , description:'5 10/100Mbps Auto-Negotiation RJ45 ports, Supports Auto MDI / MDIX,
    Green Ethernet technology,
    IEEE 802.3x flow control,
-   Plastic case, desktop design,
    Plug and play, no configuration required', image_url:'https://www.amtel.co.ke/wp-content/uploads/2020/11/TL-SF1005D-5-Port.jpg', category_id:accessories.id
   },
   {
    name:'TP-Link 8-port Desktop Switch', price: 1500, description:'8 10/100Mbps auto-negotiation RJ45 ports,
    Supports auto MDI/MDIX
    IEEE 802.3x flow control,
-   Plastic case, desktop design
    Plug and play, no configuration required', image_url:'https://www.fgee.co.ke/wp-content/uploads/2021/07/TP-Link-TL-SF1008D-b.jpg', category_id:accessories.id
   },
 
