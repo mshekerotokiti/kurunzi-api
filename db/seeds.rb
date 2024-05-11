@@ -138,63 +138,88 @@ products = [
   }, 
   {
    name:'TP-Link 5-port Desktop Switch', price:1200 , description:'5 10/100Mbps Auto-Negotiation RJ45 ports, Supports Auto MDI / MDIX,
-   Green Ethernet technology saves the power up to 68%,
-   IEEE 802.3x flow control provides reliable data transfer,
+   Green Ethernet technology,
+   IEEE 802.3x flow control,
    Plastic case, desktop design,
    Plug and play, no configuration required', image_url:'https://www.amtel.co.ke/wp-content/uploads/2020/11/TL-SF1005D-5-Port.jpg', category_id:accessories.id
   },
   {
-   name:'TP-Link 8-port Desktop Switch', price: 1500, description:'', image_url:'https://www.fgee.co.ke/wp-content/uploads/2021/07/LS1008.jpg', category_id:accessories.id
+   name:'TP-Link 8-port Desktop Switch', price: 1500, description:'8 10/100Mbps auto-negotiation RJ45 ports,
+   Supports auto MDI/MDIX
+   IEEE 802.3x flow control,
+   Plastic case, desktop design
+   Plug and play, no configuration required', image_url:'https://www.fgee.co.ke/wp-content/uploads/2021/07/TP-Link-TL-SF1008D-b.jpg', category_id:accessories.id
   },
 
   {
-    name:'Hp Optical Wireless Mouse', price:500 , description:'', image_url:'', category_id:accessories.id
+    name:'Hp Optical Wireless Mouse', price:500 , description:'Comfortable and durable non-slip wheel design
+    light 60g button design,
+    Game players level optical sensors,
+    Precise optical navigation technology
+    Ergonomic design
+    High resolution up to 600-1600 DPI', image_url:'https://skywave.co.ke/wp-content/uploads/2022/08/WirelessMouse.jpg', category_id:accessories.id
    },
  
    {
-    name:'Hp optical Wired Mouse', price: 300, description:'', image_url:'', category_id:accessories.id
+    name:'Hp optical Wired Mouse', price: 300, description:'Usb mouse
+    3 buttons,
+    1000DPI Optical tracking,
+    Supports any windows,
+    Smooth motion without a mousepad,
+    Use in the left or right hand', image_url:'https://lucidtechcentre.com/wp-content/uploads/2023/03/l19-2.webp', category_id:accessories.id
    },
  
    {
-    name:'Wireless Reachargeable Mouse', price: 1000, description:'', image_url:'', category_id:accessories.id
+    name:'Wireless Reachargeable Mouse', price: 1000, description:'Distance: 10 meters I
+    interface: USB,
+    Color: Black,White,Gold,Grey,
+    DPI: 800-1200-1600,
+    Power Supply: Built-in rechargeable battery 500mAh,
+    Button: 4 Buttons,
+    Size:112 x 58 x 25mm', image_url:'https://www.territories.co.ke/wp-content/uploads/2023/03/Wireless-Rechargeable-Mouse-1.jpg', category_id:accessories.id
    },
  
    {
-    name:'JBL Tune 510 BT', price: 3000, description:'', image_url:'', category_id:accessories.id
+    name:'JBL Tune 510 BT', price: 3000, description:'Wireless On-Ear Headphones, with Purebass Sound', image_url:'https://i.ebayimg.com/images/g/JWIAAOSwX7FifA1T/s-l1600.webp', category_id:accessories.id
    },
  
    {
-    name:'Oraimo Youth Buds Wireless Headphones', price:3500 , description:'', image_url:'', category_id:accessories.id
+    name:'Oraimo Youth Buds ', price:3500 , description:'Wireless Headphones, 48hours listen,Ear cup mounted controls, Black', image_url:'https://i.roamcdn.net/hz/ed/listing-thumb-543w/607d22e215044655a4d195cdb354a7bb/-/horizon-files-prod/ed/picture/qgq9r988/f10ef0e7a6b99208f0d7db1576e1a7dfd2c8e2c5.jpg', category_id:accessories.id
    },
  
    {
-    name:'Celebrat A18 BT V5.0', price: 3500, description:'', image_url:'', category_id:accessories.id
+    name:'Celebrat A18 BT V5.0', price: 3500, description:'Wireless Headphones, Bluetooth connectivity,Light weight, noise reduction, deep bass , dual mode(wired-wireless), 10hours playtime', image_url:'https://p.globalsources.com/IMAGES/PDT/B1165302410/Headset-wireless-headset.jpg', category_id:accessories.id
    },
  
    {
-    name:'Bose QC 39 BT Headphones', price:3000 , description:'', image_url:'', category_id:accessories.id
+    name:'Bose QC 39 BT Headphones', price:3000 , description:'Bluetooth connectivity, Aux slot, Memory card slot, Noise cancelling, FM Radio, Comfortable to wear and can be folded', image_url:'https://dukaan.b-cdn.net/700x700/webp/projecteagle/images/a508edb6-f99a-40fb-b647-5b78052b726b.jpg', category_id:accessories.id
    },
    {
-    name:'JBL Tune 700 BT ', price:3200 , description:'', image_url:'', category_id:accessories.id
+    name:'JBL Tune 700 BT ', price:3200 , description:'Pure Bass, 27hours battery life, Multi-point connectivity, foldable, charging cable available', image_url:'https://www.phoneplacekenya.com/wp-content/uploads/2021/11/jbl-tune-700BT-Headphones-a.jpg', category_id:accessories.id
    },
    {
-    name:'Air Max2 Headphones', price:3000 , description:'', image_url:'', category_id:accessories.id
+    name:'Air Max2 Headphones', price:3000 , description:'Active noise reduction, charging cable, in ear detection,waterproof, working distance 10-15 meters', image_url:'https://trytoo.com.pk/cdn/shop/files/IMG-0340.jpg?v=1706007486&width=1445', category_id:accessories.id
    },
    {
-    name:'Dre Beats Studio 3 Headphones', price: 2500, description:'', image_url:'', category_id:accessories.id
+    name:'Dre Beats Studio 3 Headphones', price: 2500, description:'High performance headphones, noice cancelling, compatible with iOS and android devices, 22hours battery life, wireless', image_url:'https://cdsassets.apple.com/live/7WUAS350/images/beats/beats-setup-studio3-hero.jpg', category_id:accessories.id
    },
    {
-    name:'Sound Core by Anker Mini Speaker', price: 5500, description:'', image_url:'', category_id:accessories.id
+    name:'Sound Core by Anker Mini Speaker', price: 5500, description:'Size-Defying Sound and Bass,
+    Customizeable EQ with Soundcore App,
+    Beat-Driven Light Show,
+    PartyCast Technology,
+    IPX7 Waterproof,
+    15-Hour Playtime', image_url:'https://i0.wp.com/peoplestelecom.qa/storage/2022/12/03-32.jpg?fit=800%2C800&ssl=1', category_id:accessories.id
    },
 
    {
-    name:'Mega Bass F10 Colourful Speaker', price: 2500, description:'', image_url:'', category_id:accessories.id
+    name:'Mega Bass F10 Colourful Speaker', price: 2500, description:'Bluetooth, 15 hours playtime', image_url:'https://sc04.alicdn.com/kf/H3373f2f9a04a4ea780c8e756b724882bN.jpg', category_id:accessories.id
    },
 
   #  Desktops
-   {
-    name:'Elitedesk 900 SSF', price: 35000, description:'ntel corei7 vpro processor 6th generation, 8', image_url:'https://guavastores.com/storage/2022/04/hp-800g2-ssf.jpg', category_id:desktops.id
-   },
+  #  {
+  #   name:'Elitedesk 900 SSF', price: 35000, description:' Desktop PC: Intel Core i7-6500 Quad-Core 3.2GHz | 500GB HDD | 8GB RAM | Windows 10 Professional', image_url:'https://guavastores.com/storage/2022/04/hp-800g2-ssf.jpg', category_id:desktops.id
+  #  },
    {
     name:'Dell Optilex 3050', price: 15000, description:'Intel core i3 7th  gen , 8gb ram ddr4 , 500Gb hdd 7200 rpm, with hdmi port, 3.4 GHz ', image_url:'https://www.fgee.co.ke/wp-content/uploads/2021/07/Dell-Optiplex-3050-ci5-4gb-500gb.jpg', category_id:desktops.id
    },
