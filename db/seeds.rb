@@ -92,7 +92,7 @@ products = [
     name:'Dell Inspiron 15 ', price: 45000, description:'intel corei5 11th gen , 8gb ram ddr4, 512 Gb ssd, 3 usb ports, 15 inches , hdmi port ', image_url:'https://www.fgee.co.ke/wp-content/uploads/2023/08/Untitled-design-2023-08-03T144934.509.png', category_id:laptops.id
   },
   {
-    name:'Dell latitude 7280', price: 30000, description:'intel corei7 6th gen , 8GB ram ddr4 , 2.8Ghz , 256 Gb ssd , full hd , backlit keyboard , 12.5 inches ', image_url:'https://www.laptopsfactory.co.ke/wp-content/uploads/2024/03/Dell-7280.png', category_id:laptops.id
+    name:'Dell latitude 7280', price: 30000, description:'intel corei7 6th gen , 8GB ram ddr4 , 2.8Ghz , 256 Gb ssd , full hd , backlit keyboard , 12.5 inches ', image_url:'https://linnstech.co.ke/wp-content/uploads/2023/09/Untitled-design-2023-09-06T135646.257.png', category_id:laptops.id
   },
   {
     name:'Lenovo Thinkbook 14', price:50000, description:'Intel corei5 11th gen, 8gb ram , 512 gb ssd, 14 inches ',image_url:'https://mombasacomputers.b-cdn.net/wp-content/uploads/2022/02/Lenovo-ThinkBook-14-G2-ITL-Intel-Core-i5-11th-Gen-8GB-RAM-512GB-SSD-14-Inches-FHD-Display-2.jpg', category_id:laptops.id
