@@ -56,14 +56,15 @@ Service.create(services)
 puts 'Seeding Products...'
 products = [
   #Laptops
-  { name: 'Apple Macbook Air 2012', price: 25000, description: 'Intel Celeron 8th generation with 4gb ram ddr4 ,1tb hdd 7200 rpm , 15 inches , hdmi and 3 usb ports, one year warranty ', image_url: 'https://www.trustedreviews.com/wp-content/uploads/sites/54/2012/06/IMG-5607-1-1.jpg', category_id: laptops.id },
+  {
+    name:'Apple Macbook Air M1 Chip 2020 ',price:120000, description:'256ssd/8gb RAM, Retina display backlit keyboard , 495 cycle counts', image_url:'https://i.pcmag.com/imagery/reviews/02pPlSC851BxRP4BFdufSBJ-1.fit_scale.size_1028x578.v1605566017.jpg', category_id:laptops.id
+  },
+  { name: 'Apple Macbook Air 2012', price: 25000, description: 'Intel corei5 , 4gb ram , 128 gb ssd , backlit keyboard, 2 usb ports, 11 inches', image_url: 'https://www.trustedreviews.com/wp-content/uploads/sites/54/2012/06/IMG-5607-1-1.jpg', category_id: laptops.id },
 
-  { name: 'Apple Macbook Pro 2015', price: 55000, description: ' Intel corei7 15 inches , with 8gb ram , 1tb hdd , 7200 rpm,  plus 256gb ssd , 2 gb dedicated nvidia graphics full hd , VGA  and hdmi port.', image_url: 'https://m.media-amazon.com/images/I/51wIq8VeIQS._AC_UF1000,1000_QL80_.jpg', category_id: laptops.id },
+  { name: 'Apple Macbook Pro 2015', price: 55000, description: 'Intel Corei7 15 inches ,8gb ram , 1tb hdd , 7200 rpm,256gb ssd , 2 gb dedicated nvidia graphics full hd , VGA  and hdmi port.', image_url: 'https://m.media-amazon.com/images/I/51wIq8VeIQS._AC_UF1000,1000_QL80_.jpg', category_id: laptops.id },
 
   {
-    name: 'Apple Macbook Air 2015 ', 
-    price: 32000, 
-     description: 'Intel corei5 11th gen , 8gb ram ddr4, 512 Gb ssd, 3 usb ports, 15 inches , hdmi port.', 
+    name: 'Apple Macbook Air Early 2015 ',  price: 32000, description: 'Intel corei5 , 4gb RAM , 128 gb SSD, backlit keyboard, Retina display, 11 inches ', 
     image_url: 'https://i.ebayimg.com/images/g/z6MAAOSw3ihjDXaU/s-l1600.jpg', category_id:laptops.id
   },
   {
@@ -71,10 +72,16 @@ products = [
   image_url: 'https://www.phone-x.co.ke/wp-content/uploads/2022/07/89911632319069.jpg', category_id:laptops.id
   },
   {
+  name:'Hp Revolve 810', price:25500, description:'Intel corei5 13 inches, 8gb RAM, 256gb SSD, 2.4ghz speed, Touch screen, Backlit keyboard ', image_url:'https://rondamo.co.ke/photok/582103.png', category_id:laptops.id
+  },
+  {
+   name:'Lenovo ThinkPad x240', price: 17000, description:' Intel core i5, 4gb RAM,500gb HDD,2.5 ghz, 12.5 inches,backlit keyboard,', image_url:'https://rondamo.co.ke/photok/576790.jpg', category_id:laptops.id
+  },
+  {
     name: 'Asus 541xl', price: 33500,  description: ' Intel corei7 15 inches , with 8gb ram , 1tb hdd , 7200 rpm,  plus 256gb ssd , 2 gb dedicated nvidia graphics full hd , VGA  and hdmi port.', image_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnuN9URz0JjteiAqUV9J2yOVGnpEQuTNa4KFSI8Z6Wvg&s', category_id:laptops.id
   },
   {
-  name: 'Lenovo Ideapad 3', price: 50000, description: ' Intel corei7 15 inches , with 8gb ram , 1tb hdd , 7200 rpm,  plus 256gb ssd , 2 gb dedicated nvidia graphics full hd , VGA  and hdmi port.', 
+  name: 'Lenovo Ideapad 3', price: 26000, description: ' Intel corei 3, 14 inches , 8gb ram , 256 gb SSD ,10th Generation', 
   image_url: 'https://dnsl.co.ke/wp-content/uploads/2023/01/82H8015PUE.jpeg',category_id:laptops.id
   },
   {
@@ -130,7 +137,15 @@ products = [
    {
     name:'Hp Probook 11 G2', price:20500 , description:'intel corei3 6th gen , touchscreen,8gb ram ,1 tb hdd, hdmi port, VGA port ', image_url:'https://www.onsidetechsolutions.co.ke/wp-content/uploads/2023/06/HP-Probook-X360-11G2-I5-10th-Gen-8GB-Ram-256GB-SSD-Touch.jpeg', category_id:laptops.id
    },
-   
+   {
+    name:'Hp Probook 445 G9 AMD RYZEN 5', price:65000 , description:'8 GB RAM DDR4, 512 GB NVME SSD, Backlit keyboard, Radeon graphics, FULL HD, 12 CPUS, 2.3 GHZ ', image_url:'https://www.saruk.co.ke/_next/image?url=https%3A%2F%2Fsaruk-images.s3.ap-south-1.amazonaws.com%2F93861706540908.jpg&w=1920&q=75',category_id:laptops.id
+   },
+   {
+    name:'Lenovo Thinkbook 15', price:51000, description:'Intel corei5 11th gen, 8 GB RAM DDR4, 256 GB NVME SSD, Full HD, Type C Charger, 2.4 GHZ', image_url:'https://linnstech.co.ke/wp-content/uploads/2024/05/Untitled-design-2024-05-02T120115.381.png',category_id:laptops.id
+   },
+   {
+    name:'Hp Elitebook Folio 1040 G3 ',price: 33000, description:'Intel corei5, 8 GB RAM, 256 GB SSD, Backlit keyboard, touchscreen, 14 inches, Full HD', image_url:'https://linnstech.co.ke/wp-content/uploads/2022/05/339.jpg',category_id:laptops.id
+   },
 
   #Accessories
   {
@@ -215,14 +230,17 @@ products = [
    },
 
   #  Desktops
-  #  {
-  #   name:'Elitedesk 900 SSF', price: 35000, description:' Desktop PC: Intel Core i7-6500 Quad-Core 3.2GHz | 500GB HDD | 8GB RAM | Windows 10 Professional', image_url:'https://guavastores.com/storage/2022/04/hp-800g2-ssf.jpg', category_id:desktops.id
-  #  },
    {
-    name:'Dell Optilex 3050', price: 15000, description:'Intel core i3 7th  gen , 8gb ram ddr4 , 500Gb hdd 7200 rpm, with hdmi port, 3.4 GHz ', image_url:'https://www.fgee.co.ke/wp-content/uploads/2021/07/Dell-Optiplex-3050-ci5-4gb-500gb.jpg', category_id:desktops.id
+    name:'Elitedesk 900 SSF', price: 35000, description:' Desktop PC: Intel corei7 vpro processor ,6th generation, 8gb RAM DDR(upgradable), 500 GB HDD 7200 rpm , 19 inches Tft , keyboard and mouse', image_url:'https://guavastores.com/storage/2022/04/hp-800g2-ssf.jpg', category_id:desktops.id
    },
    {
-    name:'Lenovo Thinkcentre M 80s', price: 45000, description:'ntel corei5 10th generation , 8gb ddr4 (upgradable) , 512 Gb Nvme ssd , comes with type c port,8  USB ports, HDMI port, display port, VGA port', image_url:'https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8NTY3Nzh8aW1hZ2UvanBnfGg1OS9oMGIvMTA5MjAxNzkyNjk2NjIuanBnfGE2OTIxMGE4OGUzNjljYmZjZDA4NTEzOThkOWQ1NzA4MTcyMzJmOTI0MTY0NmY0MDUzZDc5ZWVkYmRlNTJlMjA/bWFzdGVyfH.jpg', category_id:desktops.id
+   name:'LENOVO V530-151GB TW COMPLETE DESKTOP', description:'Intel corei5 8gen, 8GB DDR4 RAM |  1 TB (1000 GB) HDD 7200 RPM, Come with Thinkvisio screen 19.5, IPS Wide LED Screen', price:35000, image_url:'https://www.onsidetechsolutions.co.ke/wp-content/uploads/2023/06/V530-1.jpg', category_id:laptops.id
+   },
+   {
+    name:'Dell Optilex 3050', price: 15000, description:'Intel core i3 7th  gen , 8gb RAM DDR4 , 500Gb HDD 7200 rpm, with HDMI port, 3.4 GHz ', image_url:'https://www.fgee.co.ke/wp-content/uploads/2021/07/Dell-Optiplex-3050-ci5-4gb-500gb.jpg', category_id:desktops.id
+   },
+   {
+    name:'Lenovo Thinkcentre M 80s', price: 45000, description:'Intel corei5 10th generation , 8gb DDR4(upgradable) , 512 Gb Nvme SSD , comes with type c port,8  USB ports, HDMI port, display port, VGA port', image_url:'https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8NTY3Nzh8aW1hZ2UvanBnfGg1OS9oMGIvMTA5MjAxNzkyNjk2NjIuanBnfGE2OTIxMGE4OGUzNjljYmZjZDA4NTEzOThkOWQ1NzA4MTcyMzJmOTI0MTY0NmY0MDUzZDc5ZWVkYmRlNTJlMjA/bWFzdGVyfH.jpg', category_id:desktops.id
    },
    {
     name:'Hp Prodesk 600 G3', price:31500 , description:'Intel core i5 - 7th gen
