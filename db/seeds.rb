@@ -68,8 +68,8 @@ products = [
     image_url: 'https://i.ebayimg.com/images/g/z6MAAOSw3ihjDXaU/s-l1600.jpg', category_id:laptops.id
   },
   {
-    name: 'Asus E410',price: 18500, description: ' Intel corei7 15 inches , with 8gb ram , 1tb hdd , 7200 rpm,  plus 256gb ssd , 2 gb dedicated nvidia graphics full hd , VGA  and hdmi port.', 
-  image_url: 'https://www.phone-x.co.ke/wp-content/uploads/2022/07/89911632319069.jpg', category_id:laptops.id
+    name: 'Hp Probook 450 G5',price: 43000, description: ' Intel corei7 15 inches ,8gb RAM , 1tb HDD , 7200 rpm,  plus 256gb SSD , 2 gb dedicated nvidia graphics full hd , VGA  and hdmi port', 
+  image_url: 'https://support.hp.com/wcc-assets/document/images/967/c05692052.jpg', category_id:laptops.id
   },
   {
   name:'Hp Revolve 810', price:25500, description:'Intel corei5 13 inches, 8gb RAM, 256gb SSD, 2.4ghz speed, Touch screen, Backlit keyboard ', image_url:'https://rondamo.co.ke/photok/582103.png', category_id:laptops.id
@@ -78,11 +78,19 @@ products = [
    name:'Lenovo ThinkPad x240', price: 17000, description:' Intel core i5, 4gb RAM,500gb HDD,2.5 ghz, 12.5 inches,backlit keyboard,', image_url:'https://rondamo.co.ke/photok/576790.jpg', category_id:laptops.id
   },
   {
-    name: 'Asus 541xl', price: 33500,  description: ' Intel corei7 15 inches , with 8gb ram , 1tb hdd , 7200 rpm,  plus 256gb ssd , 2 gb dedicated nvidia graphics full hd , VGA  and hdmi port.', image_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnuN9URz0JjteiAqUV9J2yOVGnpEQuTNa4KFSI8Z6Wvg&s', category_id:laptops.id
+    name: 'Asus 541xl', price: 33500,  description: ' Intel corei5, 8gb RAM, 512gb SSD 2gb nvidia graphics , 15 inches with numerical keyboard', image_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnuN9URz0JjteiAqUV9J2yOVGnpEQuTNa4KFSI8Z6Wvg&s', category_id:laptops.id
   },
   {
   name: 'Lenovo Ideapad 3', price: 26000, description: ' Intel corei 3, 14 inches , 8gb ram , 256 gb SSD ,10th Generation', 
   image_url: 'https://dnsl.co.ke/wp-content/uploads/2023/01/82H8015PUE.jpeg',category_id:laptops.id
+  },
+  {
+    name:'Lenovo Ideapad 3', price:50000, description:' Intel Core i5 11th Gen,
+    8GB of DDR4 RAM | 512 GB NVME SSD,14 inches,
+    Integrated Intel Iris Xe Graphics,fingerprint scanner',image_url:'https://p4-ofp.static.pub//fes/cms/2023/06/12/44fbbxq1oftp7c0wwfst9519ds8ebm747280.jpg', category_id:laptops.id
+  },
+  {
+   name:'Lenovo Ideapad Flex 5', price:65000, description:'Intel corei5 11th Gen, 8gb RAM, 512 Gb SSD, backlit keyboard, touchscreen x360 , with Intel iris graphics', image_url:'https://laptopclinic.co.ke/cdn/shop/products/8010.jpg?v=1679501763&width=1800',category_id:laptops.id
   },
   {
     name: 'Lenovo Thinkpad x1 yoga', price: 47000, description: ' Intel corei7 15 inches , with 8gb ram , 1tb hdd , 7200 rpm,  plus 256gb ssd , 2 gb dedicated nvidia graphics full hd , VGA  and hdmi port.', image_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRX5KxnsAH-NIbbJa0JIUMecLtWpD9GldPnpirsU5N2A&s',category_id:laptops.id
@@ -96,7 +104,7 @@ products = [
     name:'Dell latitude 5430', price: 70000, description:'intel corei7 12th gen 16gb ram , 512gb ssd , backlit keyboard, 13 inches , full hd', image_url:'https://www.dataworld.co.ke/wp-content/uploads/2023/05/LAT-5430-2.jpg',category_id:laptops.id
   },
   {
-    name:'Dell Inspiron 15 ', price: 45000, description:'intel corei5 11th gen , 8gb ram ddr4, 512 Gb ssd, 3 usb ports, 15 inches , hdmi port ', image_url:'https://www.fgee.co.ke/wp-content/uploads/2023/08/Untitled-design-2023-08-03T144934.509.png', category_id:laptops.id
+    name:'Dell Inspiron 15 ', price: 45000, description:'Intel corei5 11th gen , 8gb RAM ddr4, 512gb SSD, 3 usb ports, 15 inches , hdmi port ', image_url:'https://www.fgee.co.ke/wp-content/uploads/2023/08/Untitled-design-2023-08-03T144934.509.png', category_id:laptops.id
   },
   {
     name:'Dell latitude 7280', price: 30000, description:'intel corei7 6th gen , 8GB ram ddr4 , 2.8Ghz , 256 Gb ssd , full hd , backlit keyboard , 12.5 inches ', image_url:'https://linnstech.co.ke/wp-content/uploads/2023/09/Untitled-design-2023-09-06T135646.257.png', category_id:laptops.id
@@ -108,7 +116,7 @@ products = [
    name:'Lenovo ThinkPad E14', price:65000, description:'Intel corei7 11th gen , 16Gb ram , 512 Gb ssd , backlit keyboard, full hd , hdmi , type c and 3 usb port ', image_url:'https://zurimall.co.ke/wp-content/uploads/2023/05/Untitled-1-2.jpg.webp', category_id:laptops.id
   },
   {
-   name:'Lenovo ThinkPad x13 ', price: 55000, description:'ultra slim laptop.Processor : 11th  Generation Intel® Core™ i5-Integrated Intel® Iris® Xe Graphics, 8 GB LPDDR5-6400MHz (Soldered),256 GB SSD M.2 2280 PCIe Gen4 TLC Opal',image_url:'https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MjY0NjY0fGltYWdlL2pwZWd8aGZhL2hlNC8xMDgxMjE3MDMzODMzNC5qcGd8MjY5MmIxNTNmYjU5ZWQ4ZjBjOGI4YTIwMjVjYzk3ZTYwMDUyNWM5N2NmOTlkNjVmZjcxNGEzNzM3ZDA5ODQ2Yw/lenovo-laptop-thinkpad-x13-gallery-2.jpg', category_id:laptops.id
+   name:'Lenovo ThinkPad x13 ', price: 55000, description:'11th  Generation Intel Corei5,Integrated Iris Xe Graphics, 8 GB LPDDR5-6400MHz (Soldered),256gb SSD M.2 2280 ',image_url:'https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MjY0NjY0fGltYWdlL2pwZWd8aGZhL2hlNC8xMDgxMjE3MDMzODMzNC5qcGd8MjY5MmIxNTNmYjU5ZWQ4ZjBjOGI4YTIwMjVjYzk3ZTYwMDUyNWM5N2NmOTlkNjVmZjcxNGEzNzM3ZDA5ODQ2Yw/lenovo-laptop-thinkpad-x13-gallery-2.jpg', category_id:laptops.id
   },
   {
     name:' New Hp 250 g8 ', price:28000, description:'intel Celeron , 8gb  ram , 256 gb ssd, 15 inches frameless, 2 cores, Intel hd graphics,2 usb ports, type c port, hdmi port, numerical keyboard ',image_url:'https://zurimall.co.ke/wp-content/uploads/2023/03/Artboard-1-copy-2@300x-100-2023-04-01T013459.124.jpg.webp', category_id:laptops.id
@@ -146,6 +154,22 @@ products = [
    {
     name:'Hp Elitebook Folio 1040 G3 ',price: 33000, description:'Intel corei5, 8 GB RAM, 256 GB SSD, Backlit keyboard, touchscreen, 14 inches, Full HD', image_url:'https://linnstech.co.ke/wp-content/uploads/2022/05/339.jpg',category_id:laptops.id
    },
+   {
+    name:'Hp Elitebook 830 G6', price:50000, description:'Intel corei7 8TH Gen, 16 GB DDR4,512 GB NVME SSD,Backlit keyboard, Touchscreen, 13.3 INCHES', image_url:'https://linnstech.co.ke/wp-content/uploads/2023/09/Untitled-design-2023-09-21T103001.304.png',category_id:laptops.id
+   },
+   {
+    name:'Hp Probook 450 G8', price:60000, description:' g8 Intel corei5 11th gen, 8gb RAM ,256gb Nvme SSD, backlit keyboard ,full hd, iris graphics',image_url:'https://zurimall.co.ke/wp-content/uploads/2023/02/Artboard-10-copy-11@300x-100-2-1-600x600-1.jpg.webp', category_id:laptops.id
+   },
+   {
+    name:'Hp Notebook 250 G7 ', price:45000, description:'  Intel corei5 10th gen , 2gb nvidia mx110 dedicated graphics, 16gb RAM , 512 gb Nvme SSD, full hd ',image_url:'https://www.fgee.co.ke/wp-content/uploads/2021/07/HP-Notebook-250-G7-Core-i5-4GB-RAM-1TB-Storage-15.6-FHD-Display-3.jpg', category_id:laptops.id
+   },
+   {
+    name:'Dell Latitude 7390', price:38500, despription:'Intel Corei5,8TH GEN,16gb RAM DDR4, 512gb NVME SSD, Touchscreen, 14inches, fingerprint scanner',image_url:'https://hewlettcomputersolution.co.ke/wp-content/uploads/2024/03/Untitled-design77-768x768.png',category_id:laptops.id
+   },
+   {
+    name:'Dell Latitude 7440', price:75000, description:'Intel Core i5-1355U 13TH Gen, 16gb RAM ,512GB SSD ,14inches, Backlit Keyboard, Intel Iris Graphics, Type C Charger',image_url:'https://www.onsidetechsolutions.co.ke/wp-content/uploads/2023/11/Dell-Latitude-7440-i7-1355U-16GB-RAM-512GB-SSD14FHD-Silver.webp',category_id:laptops.id
+   },
+   
 
   #Accessories
   {
