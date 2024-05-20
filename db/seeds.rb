@@ -12,7 +12,7 @@ desktops = Category.create(name: 'Desktops')
 accessories = Category.create(name: 'Accessories')
 cameras = Category.create(name: 'Cameras')
 play_stations = Category.create(name: 'Play Stations')
-uncategorized = Category.create(name: 'uncategorized')
+chargers = Category.create(name: 'Chargers')
 
 # Sample blog posts
 puts 'Seeding Blog Posts...'
@@ -57,7 +57,7 @@ puts 'Seeding Products...'
 products = [
   #Laptops
   {
-    name:'Apple Macbook Air M1 Chip 2020 ',price:120000, description:'256ssd/8gb RAM, Retina display backlit keyboard , 495 cycle counts', image_url:'https://i.pcmag.com/imagery/reviews/02pPlSC851BxRP4BFdufSBJ-1.fit_scale.size_1028x578.v1605566017.jpg', category_id:laptops.id
+    name:'Apple Macbook Air M1 Chip 2020 ',price:120000, description:'256ssd/8gb RAM, Retina display backlit keyboard , 495 cycle counts', image_url:'https://helios-i.mashable.com/imagery/reviews/03y8gbj1mqCuexgXxFJ5vyX/hero-image.fill.size_1248x702.v1623391330.jpg', category_id:laptops.id
   },
   { name: 'Apple Macbook Air 2012', price: 25000, description: 'Intel corei5 , 4gb ram , 128 gb ssd , backlit keyboard, 2 usb ports, 11 inches', image_url: 'https://www.trustedreviews.com/wp-content/uploads/sites/54/2012/06/IMG-5607-1-1.jpg', category_id: laptops.id },
 
@@ -189,29 +189,24 @@ products = [
   },
 
   {
-    name:'Hp Optical Wireless Mouse', price:500 , description:'Comfortable and durable non-slip wheel design
-    light 60g button design,
-    Game players level optical sensors,
-    High resolution up to 600-1600 DPI', image_url:'https://skywave.co.ke/wp-content/uploads/2022/08/WirelessMouse.jpg', category_id:accessories.id
+    name:'Hp Optical Wireless Mouse', price:500 , description:'Comfortable and durable non-slip wheel design,
+    Light 60g button design,
+    Optical sensors,
+    High resolution up to 600-1600 DPI', image_url:'https://lucidtechcentre.com/wp-content/uploads/2023/03/3CY46PA.png', category_id:accessories.id
    },
- 
    {
     name:'Hp optical Wired Mouse', price: 300, description:'Usb mouse
     3 buttons,
     1000DPI Optical tracking,
-    Supports any windows,
-    Smooth motion without a mousepad,
-    Use in the left or right hand', image_url:'https://lucidtechcentre.com/wp-content/uploads/2023/03/l19-2.webp', category_id:accessories.id
+    Smooth motion without a mousepad', image_url:'https://nairobicomputershop.co.ke/media/products/M10_4.jpg', category_id:accessories.id
    },
  
    {
-    name:'Wireless Reachargeable Mouse', price: 1000, description:'Distance: 10 meters I
+    name:'Wireless Rechargeable Mouse', price: 1000, description:'Distance: 10 meters I
     interface: USB,
     Color: Black,White,Gold,Grey,
-    DPI: 800-1200-1600,
-    Power Supply: Built-in rechargeable battery 500mAh,
-    Button: 4 Buttons,
-    Size:112 x 58 x 25mm', image_url:'https://www.territories.co.ke/wp-content/uploads/2023/03/Wireless-Rechargeable-Mouse-1.jpg', category_id:accessories.id
+    Built-in rechargeable battery 500mAh,
+    Size:112 x 58 x 25mm', image_url:'https://files.sophie.co.ke/2022/10/902507743_8966-1_6596.jpg', category_id:accessories.id
    },
  
    {
@@ -282,7 +277,29 @@ products = [
    },
   
    
-  
+#Playstations
+{
+name:'PS5', price: 65000, description:'Digital 1TB storage, Two pads and Fifa 24',image_url:'https://www.starmac.co.ke/wp-content/uploads/2024/04/Untitled-1-Recovered-12.gif',category_id:play_stations.id
+},
+{
+name:'PS5', price: 70000, description:'Standard 1TB storage, Two pads and Fifa 24',image_url:'https://www.starmac.co.ke/wp-content/uploads/2024/04/Untitled-1-Recovered-12.gif',category_id:play_stations.id
+},
+
+#chargers
+{
+  name:'Hp Bluepin Charger', price: 1000, description:'Blue pin',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/23-2.jpg?strip=all&lossy=1&ssl=1',category_id:chargers
+},
+{
+  name:'Hp Bigpin Charger', price: 1000, description:'Big pin',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/23-2.jpg?strip=all&lossy=1&w=768&ssl=1',category_id:chargers
+},
+{
+  name:'Hp Smallpin Charger', price: 1000, description:'Small pin',image_url:'https://www.innovativecomputers.co.ke/cdn/shop/files/2.31sp_400x.jpg?v=1684157111',category_id:chargers
+},
+{
+  name:'Hp Type C Charger', price: 3500, description:'Type C',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/j-8.jpg?strip=all&lossy=1&w=768&ssl=1',category_id:chargers
+},
+
+
        
 
 
