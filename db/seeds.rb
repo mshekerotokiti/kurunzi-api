@@ -287,16 +287,16 @@ name:'PS5', price: 70000, description:'Standard 1TB storage, Two pads and Fifa 2
 
 #chargers
 {
-  name:'Hp Bluepin Charger', price: 1000, description:'Blue pin',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/23-2.jpg?strip=all&lossy=1&ssl=1',category_id:chargers
+  name:'Hp Bluepin Charger', price: 1000, description:'Blue pin',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/23-2.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
 },
 {
-  name:'Hp Bigpin Charger', price: 1000, description:'Big pin',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/23-2.jpg?strip=all&lossy=1&w=768&ssl=1',category_id:chargers
+  name:'Hp Bigpin Charger', price: 1000, description:'Big pin',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/23-2.jpg?strip=all&lossy=1&w=768&ssl=1',category_id:chargers.id
 },
 {
-  name:'Hp Smallpin Charger', price: 1000, description:'Small pin',image_url:'https://www.innovativecomputers.co.ke/cdn/shop/files/2.31sp_400x.jpg?v=1684157111',category_id:chargers
+  name:'Hp Smallpin Charger', price: 1000, description:'Small pin',image_url:'https://www.innovativecomputers.co.ke/cdn/shop/files/2.31sp_400x.jpg?v=1684157111',category_id:chargers.id
 },
 {
-  name:'Hp Type C Charger', price: 3500, description:'Type C',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/j-8.jpg?strip=all&lossy=1&w=768&ssl=1',category_id:chargers
+  name:'Hp Type C Charger', price: 3500, description:'Type C',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/j-8.jpg?strip=all&lossy=1&w=768&ssl=1',category_id:chargers.id
 },
 
 
