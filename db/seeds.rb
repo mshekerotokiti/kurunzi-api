@@ -286,31 +286,31 @@ name:'PS5', price: 70000, description:'Standard 1TB storage, Two pads and Fifa 2
 
 #chargers
 {
-  name:'Hp Bluepin Charger', price: 1000, description:'Blue pin',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/23-2.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
+  name:'Hp Bluepin Charger', price: 1000, description:'Original Hp Blue pin laptop chargers, 65W 19.5V 3.33A',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/23-2.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
 },
 {
-  name:'Hp Bigpin Charger', price: 1000, description:'Big pin',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/HP-65W-195V-333A-big-pin-charger-2-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
+  name:'Hp Bigpin Charger', price: 1000, description:'Original Hp Big pin laptop chargers, 65W 19.5V 3.33A',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/HP-65W-195V-333A-big-pin-charger-2-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
 },
 {
-  name:'Hp Smallpin Charger', price: 1000, description:'Small pin',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/7-5-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
+  name:'Hp Smallpin Charger', price: 1000, description:'Original Hp Small pin laptop chargers, 65W 19.5V 3.33A',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/7-5-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
 },
 {
-  name:'Hp Type C Charger', price: 3500, description:'Type C',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/j-8.jpg?strip=all&lossy=1&w=768&ssl=1',category_id:chargers.id
+  name:'Hp Type C Charger', price: 3500, description:'Original HP USB Type C Charger, 65W 20 V 3.25 A Laptop Charger',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/j-8.jpg?strip=all&lossy=1&w=768&ssl=1',category_id:chargers.id
 },
 {
-  name:'Dell Smallpin', price: 1000, description:'Small Pin laptop Charger,65W, 19.5V ,3.34A'image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/n-6-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
+  name:'Dell Smallpin', price: 1000, description:'Original Dell Small Pin laptop Charger,65W, 19.5V ,3.34A'image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/n-6-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
 },
 {
-  name:'Dell Bigpin Charger', price: 1000, description:'Big pin laptop charger, 65W ,19.5V ,3.34A',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/HP-65W-195V-333A-big-pin-charger-2-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
+  name:'Dell Bigpin Charger', price: 1000, description:'Original Dell Big pin laptop charger, 65W ,19.5V ,3.34A',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/HP-65W-195V-333A-big-pin-charger-2-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
 },
 {
-  name:'Dell Type C Charger', price:3500, description:'Type C laptop charger, 65W, 15V, 4.3A USB',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/LD0005887789_1-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
+  name:'Dell Type C Charger', price:3500, description:'Original Dell Type C laptop charger, 65W, 15V, 4.3A USB',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/LD0005887789_1-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
 },
 {
-  name:'Lenovo Bigpin Charger', price:1000, description:'Bigpin laptop charger, 65W, 15V, 4.3A USB',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/lenovo-20V-325A-65W-big-pin-Charger.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
+  name:'Lenovo Bigpin Charger', price:1000, description:'Original Lenovo Bigpin laptop charger, 65W, 15V, 4.3A USB',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/lenovo-20V-325A-65W-big-pin-Charger.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
 },
 {
-  name:'Lenovo Smallpin Charger', price:1000, description:'Smallpin laptop charger, 65W, 15V, 4.3A USB',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/n-7-2.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
+  name:'Lenovo Smallpin Charger', price:1000, description:'Original Lenovo Smallpin laptop charger, 65W, 15V, 4.3A USB',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/n-7-2.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
 },
 {
   name:'Lenovo Type C Charger', price:3500, description:'Original Lenovo Type C laptop charger, 65W, 15V, 4.3A USB',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/Lenovo-65-W-225-A-20-V-USB-Type-C-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
