@@ -51,11 +51,4 @@ ActiveRecord::Schema[7.0].define(version: 2024_05_06_181138) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "services", force: :cascade do |t|
-    t.string "name"
-    t.text "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
 end
