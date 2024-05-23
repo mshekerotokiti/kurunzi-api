@@ -2,7 +2,6 @@ puts 'Starting seed process...'
 
 # Destroy existing records to avoid duplicates
 BlogPost.destroy_all
-Service.destroy_all
 KurunziShop.destroy_all
 Category.destroy_all
 
@@ -41,16 +40,16 @@ BlogPost.create([
 ])
 
 # Sample services data
-puts 'Seeding Services...'
-services = [
-  { name: "Laptop Sales", description: "Wide range of Laptops from top brands" },
-  { name: "Laptop Repairs", description: "Hardware and software troubleshooting, upgrades, and repairs"},
-  { name: "Desktop Computer Sales", description: "Customizable desktop computers for home and business"},
-  { name: "Desktop Computer Repairs", description: "Desktop maintenance, virus removal, and upgrades"},
-  { name: "Web Development", description: "Custom website and web application development"},
-  { name: "Computer Accessories", description: "Laptop bags, chargers, keyboards, and more"}
-]
-Service.create(services)
+# puts 'Seeding Services...'
+# services = [
+#   { name: "Laptop Sales", description: "Wide range of Laptops from top brands" },
+#   { name: "Laptop Repairs", description: "Hardware and software troubleshooting, upgrades, and repairs"},
+#   { name: "Desktop Computer Sales", description: "Customizable desktop computers for home and business"},
+#   { name: "Desktop Computer Repairs", description: "Desktop maintenance, virus removal, and upgrades"},
+#   { name: "Web Development", description: "Custom website and web application development"},
+#   { name: "Computer Accessories", description: "Laptop bags, chargers, keyboards, and more"}
+# ]
+# Service.create(services)
 
 # Sample products (KurunziShop items)
 puts 'Seeding Products...'
@@ -307,6 +306,7 @@ name:'PS5', price: 70000, description:'Standard 1TB storage, Two pads and Fifa 2
   # Add more products as needed
 ]
 KurunziShop.create(products)
+KurunziShop.create(name: "EliteDesk 800", description: "HP EliteDesk 800 G2", category_id: 1, price: 500)
 Item.create(products)
 
 puts 'All data seeded successfully.'

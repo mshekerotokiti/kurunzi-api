@@ -1,17 +1,15 @@
 class KurunziShopController < ApplicationController
-
   # GET /kurunzi_shop
   def index
     @shop_items = KurunziShop.all
 
-    # Filter by category if provided
     if params[:category_id].present?
       @shop_items = @shop_items.where(category_id: params[:category_id])
     end
 
-    # Filter by product name if provided
     if params[:search].present?
-      @shop_items = @shop_items.where("name LIKE ? OR description LIKE ?", "%#{query}%", "%#{query}%")
+      query = params[:search].downcase
+      @shop_items = @shop_items.where("name ILIKE ?", "%#{params[:search]}%")
     end
 
     # Filter by minimum price if provided
@@ -45,7 +43,6 @@ class KurunziShopController < ApplicationController
       render json: { error: "Shop item not found" }, status: :not_found
     end
   end
-
   private
   def set_kurunzi_shop
     @kurunzi_shop = KurunziShop.find_by(id: params[:id])
@@ -54,4 +51,5 @@ class KurunziShopController < ApplicationController
     end
   end
 
+  
 end
