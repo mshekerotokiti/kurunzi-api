@@ -298,7 +298,7 @@ name:'PS5', price: 70000, description:'Standard 1TB storage, Two pads and Fifa 2
   name:'Hp Type C Charger', price: 3500, description:'Original HP USB Type C Charger, 65W 20 V 3.25 A Laptop Charger',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/j-8.jpg?strip=all&lossy=1&w=768&ssl=1',category_id:chargers.id
 },
 {
-  name:'Dell Smallpin', price: 1000, description:'Original Dell Small Pin laptop Charger,65W, 19.5V ,3.34A'image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/n-6-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
+  name:'Dell Smallpin', price: 1000, description:'Original Dell Small Pin laptop Charger,65W, 19.5V ,3.34A',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/n-6-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
 },
 {
   name:'Dell Bigpin Charger', price: 1000, description:'Original Dell Big pin laptop charger, 65W ,19.5V ,3.34A',image_url:'https://e5wysct4rbh.exactdn.com/wp-content/uploads/2023/12/HP-65W-195V-333A-big-pin-charger-2-1.jpg?strip=all&lossy=1&ssl=1',category_id:chargers.id
