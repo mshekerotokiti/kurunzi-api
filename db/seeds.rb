@@ -17,11 +17,11 @@ chargers = Category.create(name: 'Chargers')
 puts 'Seeding Blog Posts...'
 BlogPost.create([
   {
-    image_url: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pnZtQ6GTlK7DKtI1OI-c8Q.jpeg",
-    title: "TROUBLESHOOTING AND REPAIRS",
-    body: "Let’s dive in and get those machines purring again! 🚀💻 No problem is too big or too small!.",
+    image_url: "https://store.hp.com/app/assets/images/uploads/prod/how-to-install-ram-one-a-motherboard-hero156711117076644.jpg",
+    title: "How to Easily Upgrade and Customize your Laptop at Home",
+    body: "If you’re looking to boost your laptop’s functionality by upgrading or customization this step by step Guide is the article for you.",
     published_at: Time.now - 1.day,
-    medium_link: "https://medium.com/@kurunzitechmedia/troubleshooting-and-repairs-9d36437ceb8a"
+    medium_link: "https://medium.com/@kurunzitechmedia/how-to-easily-upgrade-and-customize-your-laptop-at-home-1b02392090df?source=user_profile---------0----------------------------"
   },
   {
     image_url: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Qx42orXTlZ8pALXknnEkcw.jpeg",
